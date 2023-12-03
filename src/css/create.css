@@ -1,0 +1,16 @@
+body{
+    background: url(../../img/196797.jpg)no-repeat;
+}
+.app{
+    margin: 60px 200px;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: white;
+}
+.app .text {
+    color: black;
+}
+
+.app h1 {
+    text-align: center;
+}

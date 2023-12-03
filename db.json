@@ -1,0 +1,71 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "password": "123",
+      "role": 1
+    },
+    {
+      "name": "aaaa",
+      "price": "1111",
+      "description": "aaaa",
+      "id": 2,
+      "role": 2
+    }
+  ],
+  "Product": [
+    {
+      "image": "https://phongquantrithietbi.neu.edu.vn/Resources/Images/SubDomain/phongquantrithietbi/TinTuc/T12_2021/24.12.1.jpg",
+      "name": "dsds",
+      "price": "43",
+      "description": "e",
+      "id": 5
+    },
+    {
+      "name": "ffff",
+      "price": "2121",
+      "description": "ddd",
+      "id": 6
+    },
+    {
+      "name": "dadsadsa",
+      "price": "44444",
+      "description": "dsdsadas",
+      "id": 7
+    },
+    {
+      "name": "ghghgh",
+      "price": "656565",
+      "description": "hghgh",
+      "id": 8
+    },
+    {
+      "name": "sadas",
+      "price": "12",
+      "description": "sadsa",
+      "id": 10
+    },
+    {
+      "name": "adsd",
+      "price": "1211",
+      "description": "asa",
+      "id": 11
+    }
+  ]
+}

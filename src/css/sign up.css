@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    width: 70%;
+    height: 75%;
+    display: flex;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: #f5f5f5;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px 5px (0,0,0rgba,0.75);
+-webkit-box-shadow: 4px 4px 5px 5px #17a104;
+-moz-box-shadow: 4px 4px 5px 5px rgba(0,0,0,0.75);
+}
+.left,.right{
+    width: 50%;
+}
+/* .left{
+    padding: 90px 20px 0px 50px;
+} */
+.left{
+    padding: 70px;
+}
+
+.header h2{
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.header h4{
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.input{
+    margin-bottom: 5px;
+    height: 40px;
+}
+.input input{
+    width: 100%;
+    height: 80%;
+    border-radius: 30px;
+    border: 1px solid gray;
+    color: black;
+    font-size: 17px;
+    padding: 7px;
+    padding-left: 30px;
+
+}
+::placeholder{
+    font-size: 14px;
+}
+.input i{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+.forgot{
+    margin-top: 7px;
+    margin-bottom: 12px;
+    
+}
+.btn button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(45deg, rgb(255, 7, 7), #20dd07);
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+button:hover{
+    transform: translate(0,-5px);
+}
+.fb,.gg{
+    /* border: 2px solid gray; */
+    height: 50px;
+    width: 160px;
+    /* border-radius: 40px; */
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+}
+.fb i:hover,.gg i:hover{
+    background-color: #ff0000;
+}
+.fb i,.gg i{
+    padding: 7px;
+    margin-right: 8px;
+    font-size: 17px;
+    color: white;
+    background-color: #0033ffd7;
+    border-radius: 17px;
+}
+.with{
+    display: flex;
+    width: 5%;
+    /* justify-content: space-between; */
+    cursor: pointer;
+}
+.right{
+    width: 50%;
+    height: 100%;
+}
+.right img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 20px 20px 0;
+}
+.forgot a{
+    font-size: 15px;
+    text-decoration: none;
+}
+.forgot a:hover{
+    color: #ff0000;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.passwword{
+    position: relative;
+}
+.password i {
+    position: absolute;
+    right: 550px;
+    top: 45%;
+    /* transform: translateY(-50%); */
+    cursor: pointer;
+    user-select: none;
+
+}
